@@ -23,11 +23,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Python vesion
-      - uses: actions/checkout@v3
-      - name: Set up Python
-        uses: actions/setup-python@4
-        with:
-          python-version: '3.14'
+      # - uses: actions/checkout@v3
+      # - name: Set up Python
+      #  uses: actions/setup-python@4
+      #  with:
+      #    python-version: '3.14'
     
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
